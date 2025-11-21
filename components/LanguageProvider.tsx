@@ -17,8 +17,8 @@ const translations: Record<Language, Record<string, string>> = {
   fr: {
     home: 'Accueil',
     models: 'Modèles',
-    offers: 'Offres & Financement',
-    charging: 'Chargement & Autonomie',
+    offers: 'Offres',
+    charging: 'Chargement',
     about: 'À propos',
     news: 'Actualités',
     contact: 'Contact',
@@ -27,8 +27,8 @@ const translations: Record<Language, Record<string, string>> = {
   ar: {
     home: 'الرئيسية',
     models: 'الموديلات',
-    offers: 'العروض والتمويل',
-    charging: 'الشحن والاستقلالية',
+    offers: 'العروض',
+    charging: 'الشحن',
     about: 'من نحن',
     news: 'الأخبار',
     contact: 'اتصل بنا',
@@ -37,8 +37,8 @@ const translations: Record<Language, Record<string, string>> = {
   en: {
     home: 'Home',
     models: 'Models',
-    offers: 'Offers & Financing',
-    charging: 'Charging & Autonomy',
+    offers: 'Offers',
+    charging: 'Charging',
     about: 'About',
     news: 'News',
     contact: 'Contact',
