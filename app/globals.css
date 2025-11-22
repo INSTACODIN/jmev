@@ -17,6 +17,15 @@
   main {
     @apply pt-20;
   }
+  
+  /* RTL support for Arabic */
+  html[dir="rtl"] {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Arial, sans-serif;
+  }
 }
 
 @layer components {

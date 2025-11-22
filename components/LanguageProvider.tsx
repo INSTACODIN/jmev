@@ -1,61 +1,60 @@
 'use client'
 
-import { createContext, useContext, useState, ReactNode } from 'react'
-
-type Language = 'fr' | 'ar' | 'en'
+import { createContext, useContext, useState, ReactNode, useEffect } from 'react'
+import { usePathname, useRouter } from 'next/navigation'
+import { Locale } from '@/i18n'
+import { tClient as getTranslation } from '@/lib/translations-client'
 
 interface LanguageContextType {
-  language: Language
-  setLanguage: (lang: Language) => void
+  locale: Locale
+  setLocale: (locale: Locale) => void
   t: (key: string) => string
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
-// Simple translations object (can be expanded later)
-const translations: Record<Language, Record<string, string>> = {
-  fr: {
-    home: 'Accueil',
-    models: 'Modèles',
-    offers: 'Offres',
-    charging: 'Chargement',
-    about: 'À propos',
-    news: 'Actualités',
-    contact: 'Contact',
-    testDrive: 'Essai routier',
-  },
-  ar: {
-    home: 'الرئيسية',
-    models: 'الموديلات',
-    offers: 'العروض',
-    charging: 'الشحن',
-    about: 'من نحن',
-    news: 'الأخبار',
-    contact: 'اتصل بنا',
-    testDrive: 'تجربة القيادة',
-  },
-  en: {
-    home: 'Home',
-    models: 'Models',
-    offers: 'Offers',
-    charging: 'Charging',
-    about: 'About',
-    news: 'News',
-    contact: 'Contact',
-    testDrive: 'Test Drive',
-  },
-}
+export function LanguageProvider({ 
+  children, 
+  initialLocale 
+}: { 
+  children: ReactNode
+  initialLocale?: Locale 
+}) {
+  const pathname = usePathname()
+  const router = useRouter()
+  // Use initialLocale from server if provided, otherwise extract from pathname
+  const [locale, setLocaleState] = useState<Locale>(() => {
+    if (initialLocale) return initialLocale
+    const localeMatch = pathname.match(/^\/(fr|ar|en)(\/|$)/)
+    return (localeMatch ? localeMatch[1] : 'fr') as Locale
+  })
 
-export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('fr')
+  // Extract locale from pathname (for client-side navigation)
+  useEffect(() => {
+    const localeMatch = pathname.match(/^\/(fr|ar|en)(\/|$)/)
+    if (localeMatch) {
+      const newLocale = localeMatch[1] as Locale
+      if (newLocale !== locale) {
+        setLocaleState(newLocale)
+      }
+    }
+  }, [pathname, locale])
+
+  const setLocale = (newLocale: Locale) => {
+    // Remove current locale from pathname
+    const pathWithoutLocale = pathname.replace(/^\/(fr|ar|en)/, '') || '/'
+    // Add new locale
+    const newPath = `/${newLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`
+    router.push(newPath)
+    setLocaleState(newLocale)
+  }
 
   const t = (key: string): string => {
-    const langTranslations = translations[language]
-    return langTranslations?.[key] || key
+    return getTranslation(locale, key)
   }
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={{ locale, setLocale, t }}>
       {children}
     </LanguageContext.Provider>
   )

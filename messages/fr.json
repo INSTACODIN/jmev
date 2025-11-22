@@ -1,0 +1,376 @@
+{
+  "common": {
+    "home": "Accueil",
+    "models": "Modèles",
+    "offers": "Offres",
+    "charging": "Chargement",
+    "about": "À propos",
+    "news": "Actualités",
+    "contact": "Contact",
+    "testDrive": "Essai routier",
+    "readMore": "Lire la suite",
+    "learnMore": "En savoir plus",
+    "getQuote": "Demander un devis",
+    "bookTestDrive": "Réserver un essai",
+    "contactUs": "Nous contacter",
+    "discoverModels": "Découvrir les modèles",
+    "viewDetails": "Voir les détails",
+    "requestQuote": "Demander un devis",
+    "allModels": "Tous les modèles",
+    "urban": "Urbain",
+    "family": "Famille",
+    "utility": "Utilitaire",
+    "noResults": "Aucun modèle trouvé pour cette catégorie.",
+    "loading": "Chargement...",
+    "send": "Envoyer",
+    "sending": "Envoi en cours...",
+    "required": "*",
+    "selectCity": "Sélectionnez votre ville",
+    "selectModel": "Sélectionnez un modèle",
+    "selectPurpose": "Sélectionnez l'objet de votre demande"
+  },
+  "home": {
+    "title": "Conduisez l'Avenir de la Mobilité Électrique en Tunisie",
+    "subtitle": "Découvrez la gamme complète de véhicules électriques JMEV. Des solutions modernes, abordables et écologiques pour tous vos déplacements.",
+    "discoverModels": "Découvrir les Modèles",
+    "bookTestDrive": "Réserver un Essai",
+    "ourModels": "Nos Modèles",
+    "modelsSubtitle": "Une gamme complète de véhicules électriques adaptés à tous vos besoins",
+    "whyChoose": "Pourquoi Choisir JMEV en Tunisie ?",
+    "whyChooseSubtitle": "Des avantages concrets pour votre mobilité quotidienne",
+    "features": {
+      "cost": {
+        "title": "Coût énergétique réduit",
+        "description": "Réduisez vos dépenses de carburant jusqu'à 80% par rapport aux véhicules thermiques. En Tunisie, l'électricité coûte environ 0,150 TND/kWh."
+      },
+      "eco": {
+        "title": "Mobilité écologique",
+        "description": "Zéro émission de CO₂, contribuez à un air plus pur en Tunisie et réduisez votre empreinte carbone."
+      },
+      "service": {
+        "title": "Service après-vente",
+        "description": "Réseau de service certifié en Tunisie, garantie complète et pièces de rechange disponibles localement."
+      },
+      "network": {
+        "title": "Réseau de recharge",
+        "description": "Infrastructure de recharge en développement en Tunisie. Support pour la recharge à domicile et bornes publiques."
+      }
+    },
+    "financing": {
+      "title": "Financement & Aides Gouvernementales",
+      "subtitle": "Des solutions de financement adaptées et des incitations pour l'achat de véhicules électriques",
+      "personalized": {
+        "title": "Financement Personnalisé",
+        "items": {
+          "1": "Crédit auto sur mesure avec taux compétitifs",
+          "2": "Durée de remboursement jusqu'à 7 ans",
+          "3": "Premier versement à partir de 20%"
+        }
+      },
+      "incentives": {
+        "title": "Aides & Incitations",
+        "items": {
+          "1": "Exonération de certaines taxes pour les VE",
+          "2": "Tarifs préférentiels pour les entreprises",
+          "3": "Support pour l'installation de bornes"
+        }
+      },
+      "learnMore": "En Savoir Plus sur le Financement"
+    },
+    "testimonials": {
+      "title": "Témoignages Clients",
+      "subtitle": "Découvrez l'expérience de nos clients en Tunisie"
+    }
+  },
+  "models": {
+    "title": "Notre Gamme de Véhicules Électriques",
+    "subtitle": "Découvrez nos modèles adaptés à tous vos besoins de mobilité en Tunisie",
+    "range": "Autonomie",
+    "battery": "Batterie",
+    "power": "Puissance",
+    "charging": "Recharge",
+    "priceFrom": "À partir de",
+    "needHelp": "Besoin d'aide pour choisir ?",
+    "needHelpSubtitle": "Notre équipe est à votre disposition pour vous conseiller et répondre à toutes vos questions"
+  },
+  "modelDetail": {
+    "overview": "Vue d'ensemble",
+    "targetCustomer": "Client cible",
+    "recommendedUsage": "Usage recommandé",
+    "specifications": "Spécifications Techniques",
+    "homeCharging": "À domicile",
+    "fastCharging": "Charge rapide",
+    "dimensions": "Dimensions",
+    "length": "Longueur",
+    "width": "Largeur",
+    "height": "Hauteur",
+    "wheelbase": "Empattement",
+    "weight": "Poids",
+    "seats": "Places",
+    "maxSpeed": "Vitesse maximale",
+    "acceleration": "Accélération",
+    "safety": "Équipements de Sécurité",
+    "gallery": "Galerie",
+    "costOfOwnership": "Coût de Possession en Tunisie",
+    "purchasePrice": "Prix d'achat",
+    "annualEnergy": "Énergie annuelle (estimée)",
+    "annualMaintenance": "Maintenance annuelle",
+    "total5Years": "Total sur 5 ans",
+    "readyToDiscover": "Prêt à découvrir le {model} ?",
+    "readySubtitle": "Réservez votre essai routier ou demandez un devis personnalisé"
+  },
+  "charging": {
+    "title": "Chargement & Autonomie",
+    "subtitle": "Tout ce que vous devez savoir sur la recharge de votre véhicule électrique en Tunisie",
+    "methods": "Méthodes de Recharge",
+    "methodsSubtitle": "Plusieurs options s'offrent à vous pour recharger votre véhicule électrique",
+    "home": {
+      "title": "Recharge à Domicile",
+      "description": "La solution la plus pratique et économique pour recharger votre véhicule au quotidien.",
+      "details": {
+        "1": "Installation d'une borne de recharge à domicile",
+        "2": "Recharge pendant la nuit (tarif réduit)",
+        "3": "Coût moyen: 0,150 TND/kWh",
+        "4": "Temps de recharge: 6-9h selon le modèle",
+        "5": "Installation professionnelle garantie"
+      }
+    },
+    "public": {
+      "title": "Recharge Publique",
+      "description": "Réseau de bornes publiques en développement en Tunisie pour vos déplacements.",
+      "details": {
+        "1": "Bornes de recharge rapide disponibles",
+        "2": "Temps de recharge: 30-45 minutes (80%)",
+        "3": "Localisation via applications mobiles",
+        "4": "Paiement par carte ou application",
+        "5": "Réseau en expansion continue"
+      }
+    },
+    "fast": {
+      "title": "Recharge Rapide",
+      "description": "Technologie de charge rapide pour les longs trajets et les urgences.",
+      "details": {
+        "1": "Charge jusqu'à 80% en 30-45 minutes",
+        "2": "Idéal pour les trajets longue distance",
+        "3": "Disponible sur autoroutes et grandes villes",
+        "4": "Technologie DC (courant continu)",
+        "5": "Protection de la batterie intégrée"
+      }
+    },
+    "ranges": {
+      "title": "Autonomie Réelle en Tunisie",
+      "subtitle": "Autonomie estimée selon les conditions de conduite tunisiennes",
+      "city": "Ville",
+      "highway": "Autoroute",
+      "mixed": "Mixte",
+      "note": "Note: Les autonomies indiquées sont des estimations basées sur des conditions de conduite normales. L'autonomie réelle peut varier selon le style de conduite, la température, le relief et l'utilisation des équipements."
+    },
+    "tips": {
+      "title": "Conseils pour Optimiser l'Autonomie",
+      "subtitle": "Quelques astuces pour maximiser l'autonomie de votre véhicule électrique",
+      "economical": {
+        "title": "Conduite Économique",
+        "description": "Adoptez une conduite souple pour maximiser l'autonomie. Utilisez le freinage régénératif."
+      },
+      "preconditioning": {
+        "title": "Préconditionnement",
+        "description": "Préchauffez ou refroidissez votre véhicule pendant la recharge pour économiser la batterie."
+      },
+      "planning": {
+        "title": "Planification",
+        "description": "Planifiez vos trajets et identifiez les bornes de recharge disponibles sur votre itinéraire."
+      },
+      "maintenance": {
+        "title": "Entretien",
+        "description": "Un entretien régulier garantit une autonomie optimale. Vérifiez régulièrement l'état de la batterie."
+      }
+    },
+    "cost": {
+      "title": "Coût de Recharge en Tunisie",
+      "subtitle": "Comparaison des coûts de recharge pour 100 km",
+      "home": "Recharge à domicile",
+      "public": "Recharge publique",
+      "thermal": "Véhicule thermique",
+      "for100km": "pour 100 km",
+      "save": "Économisez jusqu'à {percent}% sur vos coûts de carburant"
+    },
+    "questions": {
+      "title": "Questions sur la Recharge ?",
+      "subtitle": "Notre équipe peut vous aider à installer une borne de recharge à domicile ou répondre à toutes vos questions"
+    }
+  },
+  "offers": {
+    "title": "Offres & Financement",
+    "subtitle": "Des solutions de financement adaptées pour rendre la mobilité électrique accessible à tous",
+    "solutions": {
+      "title": "Nos Solutions de Financement",
+      "subtitle": "Choisissez la formule qui correspond le mieux à votre situation"
+    },
+    "individual": {
+      "title": "Financement Particuliers",
+      "description": "Solutions de crédit adaptées aux particuliers avec des conditions avantageuses.",
+      "features": {
+        "1": "Taux d'intérêt compétitifs à partir de 4.5%",
+        "2": "Durée de remboursement jusqu'à 7 ans",
+        "3": "Premier versement à partir de 20%",
+        "4": "Dossier simplifié et réponse rapide",
+        "5": "Assurance véhicule incluse dans le financement"
+      },
+      "example": {
+        "label": "Exemple de financement",
+        "vehicle": "Véhicule",
+        "price": "Prix",
+        "downPayment": "Acompte",
+        "monthly": "Mensualité",
+        "duration": "Durée"
+      },
+      "button": "Demander un Devis de Financement"
+    },
+    "business": {
+      "title": "Financement Entreprises",
+      "description": "Solutions dédiées aux entreprises et flottes avec avantages fiscaux.",
+      "features": {
+        "1": "Taux préférentiels pour les entreprises",
+        "2": "Financement jusqu'à 100% du véhicule",
+        "3": "Durée flexible selon vos besoins",
+        "4": "Avantages fiscaux et amortissements",
+        "5": "Gestion de flotte simplifiée",
+        "6": "Maintenance incluse (option)"
+      },
+      "button": "Demander un Devis de Financement"
+    },
+    "special": {
+      "title": "Offres Spéciales",
+      "subtitle": "Profitez de nos offres limitées et promotions exclusives",
+      "validUntil": "Valable jusqu'au"
+    },
+    "incentives": {
+      "title": "Aides & Incitations Gouvernementales",
+      "subtitle": "Bénéficiez des avantages et incitations pour l'achat de véhicules électriques en Tunisie",
+      "taxExemption": {
+        "title": "Exonération de Taxes",
+        "description": "Réduction ou exonération de certaines taxes d'importation et de circulation pour les véhicules électriques."
+      },
+      "taxCredit": {
+        "title": "Crédit d'Impôt",
+        "description": "Avantages fiscaux pour les entreprises investissant dans des véhicules électriques."
+      },
+      "subsidies": {
+        "title": "Subventions Énergie",
+        "description": "Aide à l'installation de bornes de recharge à domicile ou en entreprise."
+      },
+      "note": "Les conditions et montants des aides peuvent varier. Contactez-nous pour plus d'informations sur les incitations disponibles."
+    },
+    "ready": {
+      "title": "Prêt à passer à l'électrique ?",
+      "subtitle": "Notre équipe est à votre disposition pour vous proposer la meilleure solution de financement"
+    }
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Notre équipe est à votre disposition pour répondre à toutes vos questions",
+    "sendMessage": "Envoyez-nous un Message",
+    "contactInfo": "Informations de Contact",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email",
+    "openingHours": "Heures d'ouverture",
+    "mondayFriday": "Lundi - Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "closed": "Fermé",
+    "form": {
+      "fullName": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "city": "Ville",
+      "purpose": "Objet de votre demande",
+      "model": "Modèle d'intérêt",
+      "message": "Message",
+      "yourName": "Votre nom",
+      "yourEmail": "votre@email.com",
+      "yourMessage": "Votre message...",
+      "send": "Envoyer le Message",
+      "success": "Votre message a été envoyé avec succès ! Nous vous répondrons dans les plus brefs délais.",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement."
+    },
+    "purposes": {
+      "testDrive": "Réserver un essai routier",
+      "quotation": "Demander un devis",
+      "general": "Question générale",
+      "financing": "Demande de financement",
+      "charging": "Question sur la recharge",
+      "service": "Service après-vente"
+    }
+  },
+  "about": {
+    "title": "À Propos de JMEV Tunisia",
+    "subtitle": "Votre partenaire de confiance pour la mobilité électrique en Tunisie",
+    "story": {
+      "title": "Notre Histoire",
+      "p1": "JMEV Tunisia est le distributeur officiel des véhicules électriques JMEV en Tunisie. Fondée en 2020, notre mission est de rendre la mobilité électrique accessible à tous les Tunisiens.",
+      "p2": "Nous croyons fermement que l'avenir de la mobilité passe par l'électrique, et nous nous engageons à offrir des véhicules de qualité, un service après-vente exceptionnel et un accompagnement personnalisé pour chaque client.",
+      "p3": "En partenariat avec JMEV, nous apportons une expertise internationale tout en restant ancrés dans la réalité tunisienne, avec des solutions adaptées au marché local."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "subtitle": "Les principes qui guident notre action au quotidien",
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous croyons en l'innovation technologique pour une mobilité durable."
+      },
+      "sustainability": {
+        "title": "Durabilité",
+        "description": "Engagés pour un avenir plus propre et respectueux de l'environnement."
+      },
+      "accessibility": {
+        "title": "Accessibilité",
+        "description": "Rendre la mobilité électrique accessible à tous les Tunisiens."
+      },
+      "service": {
+        "title": "Service",
+        "description": "Un service client d'excellence et un accompagnement personnalisé."
+      }
+    },
+    "timeline": {
+      "title": "Notre Parcours",
+      "subtitle": "Les étapes clés de notre développement en Tunisie"
+    },
+    "partnership": {
+      "title": "Partenariat avec JMEV",
+      "description": "En tant que distributeur officiel JMEV en Tunisie, nous bénéficions d'un accès direct aux dernières innovations et technologies de la marque. Ce partenariat nous permet de vous offrir des véhicules de qualité supérieure, un support technique de niveau international, et des garanties complètes.",
+      "certified": "Véhicules certifiés",
+      "batteryWarranty": "Garantie batterie",
+      "support": "Support technique"
+    },
+    "cta": {
+      "title": "Rejoignez la Révolution Électrique",
+      "subtitle": "Découvrez comment nous pouvons vous accompagner dans votre transition vers la mobilité électrique"
+    }
+  },
+  "news": {
+    "title": "Actualités",
+    "subtitle": "Restez informé des dernières actualités et événements JMEV en Tunisie",
+    "stayInformed": "Restez Informé",
+    "newsletterSubtitle": "Abonnez-vous à notre newsletter pour recevoir les dernières actualités et offres exclusives",
+    "emailPlaceholder": "Votre adresse email",
+    "subscribe": "S'abonner"
+  },
+  "footer": {
+    "models": "Modèles",
+    "discover": "Découvrir",
+    "support": "Support",
+    "contact": "Contact",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique des cookies",
+    "terms": "Conditions d'utilisation",
+    "developedBy": "Développé avec ❤️ par"
+  }
+}
+
+
+

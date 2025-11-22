@@ -1,0 +1,376 @@
+{
+  "common": {
+    "home": "Home",
+    "models": "Models",
+    "offers": "Offers",
+    "charging": "Charging",
+    "about": "About",
+    "news": "News",
+    "contact": "Contact",
+    "testDrive": "Test Drive",
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "getQuote": "Get a quote",
+    "bookTestDrive": "Book a test drive",
+    "contactUs": "Contact us",
+    "discoverModels": "Discover models",
+    "viewDetails": "View details",
+    "requestQuote": "Request a quote",
+    "allModels": "All models",
+    "urban": "Urban",
+    "family": "Family",
+    "utility": "Utility",
+    "noResults": "No models found for this category.",
+    "loading": "Loading...",
+    "send": "Send",
+    "sending": "Sending...",
+    "required": "*",
+    "selectCity": "Select your city",
+    "selectModel": "Select a model",
+    "selectPurpose": "Select the purpose of your request"
+  },
+  "home": {
+    "title": "Drive the Future of Electric Mobility in Tunisia",
+    "subtitle": "Discover the complete range of JMEV electric vehicles. Modern, affordable and eco-friendly solutions for all your travel needs.",
+    "discoverModels": "Discover Models",
+    "bookTestDrive": "Book a Test Drive",
+    "ourModels": "Our Models",
+    "modelsSubtitle": "A complete range of electric vehicles adapted to all your needs",
+    "whyChoose": "Why Choose JMEV in Tunisia?",
+    "whyChooseSubtitle": "Concrete benefits for your daily mobility",
+    "features": {
+      "cost": {
+        "title": "Reduced energy costs",
+        "description": "Reduce your fuel expenses by up to 80% compared to thermal vehicles. In Tunisia, electricity costs around 0.150 TND/kWh."
+      },
+      "eco": {
+        "title": "Eco-friendly mobility",
+        "description": "Zero CO₂ emissions, contribute to cleaner air in Tunisia and reduce your carbon footprint."
+      },
+      "service": {
+        "title": "After-sales service",
+        "description": "Certified service network in Tunisia, complete warranty and spare parts available locally."
+      },
+      "network": {
+        "title": "Charging network",
+        "description": "Charging infrastructure under development in Tunisia. Support for home charging and public stations."
+      }
+    },
+    "financing": {
+      "title": "Financing & Government Incentives",
+      "subtitle": "Adapted financing solutions and incentives for purchasing electric vehicles",
+      "personalized": {
+        "title": "Personalized Financing",
+        "items": {
+          "1": "Custom auto loan with competitive rates",
+          "2": "Repayment period up to 7 years",
+          "3": "Down payment from 20%"
+        }
+      },
+      "incentives": {
+        "title": "Aids & Incentives",
+        "items": {
+          "1": "Exemption from certain taxes for EVs",
+          "2": "Preferential rates for businesses",
+          "3": "Support for charging station installation"
+        }
+      },
+      "learnMore": "Learn More About Financing"
+    },
+    "testimonials": {
+      "title": "Customer Testimonials",
+      "subtitle": "Discover the experience of our customers in Tunisia"
+    }
+  },
+  "models": {
+    "title": "Our Range of Electric Vehicles",
+    "subtitle": "Discover our models adapted to all your mobility needs in Tunisia",
+    "range": "Range",
+    "battery": "Battery",
+    "power": "Power",
+    "charging": "Charging",
+    "priceFrom": "From",
+    "needHelp": "Need help choosing?",
+    "needHelpSubtitle": "Our team is available to advise you and answer all your questions"
+  },
+  "modelDetail": {
+    "overview": "Overview",
+    "targetCustomer": "Target customer",
+    "recommendedUsage": "Recommended usage",
+    "specifications": "Technical Specifications",
+    "homeCharging": "At home",
+    "fastCharging": "Fast charging",
+    "dimensions": "Dimensions",
+    "length": "Length",
+    "width": "Width",
+    "height": "Height",
+    "wheelbase": "Wheelbase",
+    "weight": "Weight",
+    "seats": "Seats",
+    "maxSpeed": "Maximum speed",
+    "acceleration": "Acceleration",
+    "safety": "Safety Equipment",
+    "gallery": "Gallery",
+    "costOfOwnership": "Cost of Ownership in Tunisia",
+    "purchasePrice": "Purchase price",
+    "annualEnergy": "Annual energy (estimated)",
+    "annualMaintenance": "Annual maintenance",
+    "total5Years": "Total over 5 years",
+    "readyToDiscover": "Ready to discover the {model}?",
+    "readySubtitle": "Book your test drive or request a personalized quote"
+  },
+  "charging": {
+    "title": "Charging & Range",
+    "subtitle": "Everything you need to know about charging your electric vehicle in Tunisia",
+    "methods": "Charging Methods",
+    "methodsSubtitle": "Several options are available to charge your electric vehicle",
+    "home": {
+      "title": "Home Charging",
+      "description": "The most practical and economical solution for daily vehicle charging.",
+      "details": {
+        "1": "Installation of a home charging station",
+        "2": "Charging at night (reduced rate)",
+        "3": "Average cost: 0.150 TND/kWh",
+        "4": "Charging time: 6-9h depending on model",
+        "5": "Guaranteed professional installation"
+      }
+    },
+    "public": {
+      "title": "Public Charging",
+      "description": "Public charging network under development in Tunisia for your travels.",
+      "details": {
+        "1": "Fast charging stations available",
+        "2": "Charging time: 30-45 minutes (80%)",
+        "3": "Location via mobile applications",
+        "4": "Payment by card or application",
+        "5": "Continuously expanding network"
+      }
+    },
+    "fast": {
+      "title": "Fast Charging",
+      "description": "Fast charging technology for long trips and emergencies.",
+      "details": {
+        "1": "Charge up to 80% in 30-45 minutes",
+        "2": "Ideal for long distance trips",
+        "3": "Available on highways and major cities",
+        "4": "DC (direct current) technology",
+        "5": "Built-in battery protection"
+      }
+    },
+    "ranges": {
+      "title": "Real Range in Tunisia",
+      "subtitle": "Estimated range based on Tunisian driving conditions",
+      "city": "City",
+      "highway": "Highway",
+      "mixed": "Mixed",
+      "note": "Note: The ranges indicated are estimates based on normal driving conditions. Actual range may vary depending on driving style, temperature, terrain and equipment usage."
+    },
+    "tips": {
+      "title": "Tips to Optimize Range",
+      "subtitle": "Some tips to maximize your electric vehicle's range",
+      "economical": {
+        "title": "Economical Driving",
+        "description": "Adopt smooth driving to maximize range. Use regenerative braking."
+      },
+      "preconditioning": {
+        "title": "Preconditioning",
+        "description": "Preheat or cool your vehicle while charging to save battery."
+      },
+      "planning": {
+        "title": "Planning",
+        "description": "Plan your trips and identify available charging stations on your route."
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Regular maintenance ensures optimal range. Regularly check battery condition."
+      }
+    },
+    "cost": {
+      "title": "Charging Cost in Tunisia",
+      "subtitle": "Comparison of charging costs for 100 km",
+      "home": "Home charging",
+      "public": "Public charging",
+      "thermal": "Thermal vehicle",
+      "for100km": "for 100 km",
+      "save": "Save up to {percent}% on your fuel costs"
+    },
+    "questions": {
+      "title": "Questions about Charging?",
+      "subtitle": "Our team can help you install a home charging station or answer all your questions"
+    }
+  },
+  "offers": {
+    "title": "Offers & Financing",
+    "subtitle": "Adapted financing solutions to make electric mobility accessible to everyone",
+    "solutions": {
+      "title": "Our Financing Solutions",
+      "subtitle": "Choose the formula that best suits your situation"
+    },
+    "individual": {
+      "title": "Individual Financing",
+      "description": "Credit solutions adapted to individuals with advantageous conditions.",
+      "features": {
+        "1": "Competitive interest rates from 4.5%",
+        "2": "Repayment period up to 7 years",
+        "3": "Down payment from 20%",
+        "4": "Simplified application and quick response",
+        "5": "Vehicle insurance included in financing"
+      },
+      "example": {
+        "label": "Financing example",
+        "vehicle": "Vehicle",
+        "price": "Price",
+        "downPayment": "Down payment",
+        "monthly": "Monthly payment",
+        "duration": "Duration"
+      },
+      "button": "Request a Financing Quote"
+    },
+    "business": {
+      "title": "Business Financing",
+      "description": "Solutions dedicated to businesses and fleets with tax benefits.",
+      "features": {
+        "1": "Preferential rates for businesses",
+        "2": "Financing up to 100% of the vehicle",
+        "3": "Flexible duration according to your needs",
+        "4": "Tax benefits and depreciation",
+        "5": "Simplified fleet management",
+        "6": "Maintenance included (option)"
+      },
+      "button": "Request a Financing Quote"
+    },
+    "special": {
+      "title": "Special Offers",
+      "subtitle": "Take advantage of our limited offers and exclusive promotions",
+      "validUntil": "Valid until"
+    },
+    "incentives": {
+      "title": "Government Aids & Incentives",
+      "subtitle": "Benefit from advantages and incentives for purchasing electric vehicles in Tunisia",
+      "taxExemption": {
+        "title": "Tax Exemption",
+        "description": "Reduction or exemption from certain import and circulation taxes for electric vehicles."
+      },
+      "taxCredit": {
+        "title": "Tax Credit",
+        "description": "Tax benefits for businesses investing in electric vehicles."
+      },
+      "subsidies": {
+        "title": "Energy Subsidies",
+        "description": "Assistance for installing charging stations at home or business."
+      },
+      "note": "The conditions and amounts of aids may vary. Contact us for more information on available incentives."
+    },
+    "ready": {
+      "title": "Ready to go electric?",
+      "subtitle": "Our team is available to offer you the best financing solution"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Our team is available to answer all your questions",
+    "sendMessage": "Send us a Message",
+    "contactInfo": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "openingHours": "Opening Hours",
+    "mondayFriday": "Monday - Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "form": {
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "city": "City",
+      "purpose": "Purpose of your request",
+      "model": "Model of interest",
+      "message": "Message",
+      "yourName": "Your name",
+      "yourEmail": "your@email.com",
+      "yourMessage": "Your message...",
+      "send": "Send Message",
+      "success": "Your message has been sent successfully! We will respond as soon as possible.",
+      "error": "An error occurred. Please try again or contact us directly."
+    },
+    "purposes": {
+      "testDrive": "Book a test drive",
+      "quotation": "Request a quote",
+      "general": "General question",
+      "financing": "Financing request",
+      "charging": "Question about charging",
+      "service": "After-sales service"
+    }
+  },
+  "about": {
+    "title": "About JMEV Tunisia",
+    "subtitle": "Your trusted partner for electric mobility in Tunisia",
+    "story": {
+      "title": "Our Story",
+      "p1": "JMEV Tunisia is the official distributor of JMEV electric vehicles in Tunisia. Founded in 2020, our mission is to make electric mobility accessible to all Tunisians.",
+      "p2": "We firmly believe that the future of mobility is electric, and we are committed to offering quality vehicles, exceptional after-sales service and personalized support for each customer.",
+      "p3": "In partnership with JMEV, we bring international expertise while remaining anchored in Tunisian reality, with solutions adapted to the local market."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide our daily actions",
+      "innovation": {
+        "title": "Innovation",
+        "description": "We believe in technological innovation for sustainable mobility."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Committed to a cleaner and more environmentally respectful future."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Making electric mobility accessible to all Tunisians."
+      },
+      "service": {
+        "title": "Service",
+        "description": "Excellent customer service and personalized support."
+      }
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our development in Tunisia"
+    },
+    "partnership": {
+      "title": "Partnership with JMEV",
+      "description": "As the official JMEV distributor in Tunisia, we have direct access to the latest innovations and technologies from the brand. This partnership allows us to offer you superior quality vehicles, international-level technical support, and complete warranties.",
+      "certified": "Certified vehicles",
+      "batteryWarranty": "Battery warranty",
+      "support": "Technical support"
+    },
+    "cta": {
+      "title": "Join the Electric Revolution",
+      "subtitle": "Discover how we can support you in your transition to electric mobility"
+    }
+  },
+  "news": {
+    "title": "News",
+    "subtitle": "Stay informed about the latest JMEV news and events in Tunisia",
+    "stayInformed": "Stay Informed",
+    "newsletterSubtitle": "Subscribe to our newsletter to receive the latest news and exclusive offers",
+    "emailPlaceholder": "Your email address",
+    "subscribe": "Subscribe"
+  },
+  "footer": {
+    "models": "Models",
+    "discover": "Discover",
+    "support": "Support",
+    "contact": "Contact",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "terms": "Terms of Use",
+    "developedBy": "Developed with ❤️ by"
+  }
+}
+
+
+

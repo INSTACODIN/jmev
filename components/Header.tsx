@@ -3,11 +3,12 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { useLanguage } from './LanguageProvider'
+import { getLocalizedPath } from '@/lib/locale-utils'
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const { language, setLanguage, t } = useLanguage()
+  const { locale, setLocale, t } = useLanguage()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,13 +19,13 @@ export default function Header() {
   }, [])
 
   const navLinks = [
-    { href: '/', label: t('home') },
-    { href: '/models', label: t('models') },
-    { href: '/offers', label: t('offers') },
-    { href: '/charging', label: t('charging') },
-    { href: '/about', label: t('about') },
-    { href: '/news', label: t('news') },
-    { href: '/contact', label: t('contact') },
+    { href: getLocalizedPath('/', locale), label: t('common.home') },
+    { href: getLocalizedPath('/models', locale), label: t('common.models') },
+    { href: getLocalizedPath('/offers', locale), label: t('common.offers') },
+    { href: getLocalizedPath('/charging', locale), label: t('common.charging') },
+    { href: getLocalizedPath('/about', locale), label: t('common.about') },
+    { href: getLocalizedPath('/news', locale), label: t('common.news') },
+    { href: getLocalizedPath('/contact', locale), label: t('common.contact') },
   ]
 
   return (
@@ -38,7 +39,7 @@ export default function Header() {
       <nav className="container-custom">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href={getLocalizedPath('/', locale)} className="flex items-center space-x-2">
             <div className="text-2xl font-bold text-primary-600">
               JMEV <span className="text-gray-700">Tunisia</span>
             </div>
@@ -62,9 +63,9 @@ export default function Header() {
             {/* Language Selector */}
             <div className="hidden md:flex items-center space-x-2 border-r pr-4">
               <button
-                onClick={() => setLanguage('fr')}
+                onClick={() => setLocale('fr')}
                 className={`px-2 py-1 text-sm rounded ${
-                  language === 'fr'
+                  locale === 'fr'
                     ? 'bg-primary-600 text-white'
                     : 'text-gray-600 hover:bg-gray-100'
                 }`}
@@ -72,9 +73,9 @@ export default function Header() {
                 FR
               </button>
               <button
-                onClick={() => setLanguage('ar')}
+                onClick={() => setLocale('ar')}
                 className={`px-2 py-1 text-sm rounded ${
-                  language === 'ar'
+                  locale === 'ar'
                     ? 'bg-primary-600 text-white'
                     : 'text-gray-600 hover:bg-gray-100'
                 }`}
@@ -82,9 +83,9 @@ export default function Header() {
                 AR
               </button>
               <button
-                onClick={() => setLanguage('en')}
+                onClick={() => setLocale('en')}
                 className={`px-2 py-1 text-sm rounded ${
-                  language === 'en'
+                  locale === 'en'
                     ? 'bg-primary-600 text-white'
                     : 'text-gray-600 hover:bg-gray-100'
                 }`}
@@ -95,10 +96,10 @@ export default function Header() {
 
             {/* Test Drive CTA */}
             <Link
-              href="/contact?purpose=test-drive"
+              href={getLocalizedPath('/contact?purpose=test-drive', locale)}
               className="hidden md:block btn-primary"
             >
-              {t('testDrive')}
+              {t('common.testDrive')}
             </Link>
 
             {/* Mobile Menu Button */}
@@ -142,9 +143,9 @@ export default function Header() {
               ))}
               <div className="flex items-center space-x-2 pt-2">
                 <button
-                  onClick={() => setLanguage('fr')}
+                  onClick={() => setLocale('fr')}
                   className={`px-3 py-1 text-sm rounded ${
-                    language === 'fr'
+                    locale === 'fr'
                       ? 'bg-primary-600 text-white'
                       : 'bg-gray-100 text-gray-600'
                   }`}
@@ -152,9 +153,9 @@ export default function Header() {
                   FR
                 </button>
                 <button
-                  onClick={() => setLanguage('ar')}
+                  onClick={() => setLocale('ar')}
                   className={`px-3 py-1 text-sm rounded ${
-                    language === 'ar'
+                    locale === 'ar'
                       ? 'bg-primary-600 text-white'
                       : 'bg-gray-100 text-gray-600'
                   }`}
@@ -162,9 +163,9 @@ export default function Header() {
                   AR
                 </button>
                 <button
-                  onClick={() => setLanguage('en')}
+                  onClick={() => setLocale('en')}
                   className={`px-3 py-1 text-sm rounded ${
-                    language === 'en'
+                    locale === 'en'
                       ? 'bg-primary-600 text-white'
                       : 'bg-gray-100 text-gray-600'
                   }`}
@@ -173,11 +174,11 @@ export default function Header() {
                 </button>
               </div>
               <Link
-                href="/contact?purpose=test-drive"
+                href={getLocalizedPath('/contact?purpose=test-drive', locale)}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="btn-primary text-center mt-2"
               >
-                {t('testDrive')}
+                {t('common.testDrive')}
               </Link>
             </div>
           </div>

@@ -1,7 +1,12 @@
+'use client'
+
 import Link from 'next/link'
+import { useLanguage } from './LanguageProvider'
+import { getLocalizedPath } from '@/lib/locale-utils'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
+  const { locale, t } = useLanguage()
 
   return (
     <footer className="bg-gray-900 text-gray-300">
@@ -9,20 +14,20 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Models Section */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Modèles</h3>
+            <h3 className="text-white font-bold text-lg mb-4">{t('footer.models')}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/models/elight" className="hover:text-white transition-colors">
+                <Link href={getLocalizedPath('/models/elight', locale)} className="hover:text-white transition-colors">
                   ELIGHT
                 </Link>
               </li>
               <li>
-                <Link href="/models/ev3" className="hover:text-white transition-colors">
+                <Link href={getLocalizedPath('/models/ev3', locale)} className="hover:text-white transition-colors">
                   EV3
                 </Link>
               </li>
               <li>
-                <Link href="/models/ev2" className="hover:text-white transition-colors">
+                <Link href={getLocalizedPath('/models/ev2', locale)} className="hover:text-white transition-colors">
                   EV2
                 </Link>
               </li>
@@ -31,21 +36,21 @@ export default function Footer() {
 
           {/* Discover Section */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Découvrir</h3>
+            <h3 className="text-white font-bold text-lg mb-4">{t('footer.discover')}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/about" className="hover:text-white transition-colors">
-                  À propos
+                <Link href={getLocalizedPath('/about', locale)} className="hover:text-white transition-colors">
+                  {t('common.about')}
                 </Link>
               </li>
               <li>
-                <Link href="/news" className="hover:text-white transition-colors">
-                  Actualités
+                <Link href={getLocalizedPath('/news', locale)} className="hover:text-white transition-colors">
+                  {t('common.news')}
                 </Link>
               </li>
               <li>
-                <Link href="/charging" className="hover:text-white transition-colors">
-                  Chargement & Autonomie
+                <Link href={getLocalizedPath('/charging', locale)} className="hover:text-white transition-colors">
+                  {t('common.charging')}
                 </Link>
               </li>
             </ul>
@@ -53,21 +58,11 @@ export default function Footer() {
 
           {/* Support Section */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Support</h3>
+            <h3 className="text-white font-bold text-lg mb-4">{t('footer.support')}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/contact" className="hover:text-white transition-colors">
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="hover:text-white transition-colors">
-                  FAQ
-                </Link>
-              </li>
-              <li>
-                <Link href="/service" className="hover:text-white transition-colors">
-                  Service après-vente
+                <Link href={getLocalizedPath('/contact', locale)} className="hover:text-white transition-colors">
+                  {t('common.contact')}
                 </Link>
               </li>
             </ul>
@@ -75,23 +70,23 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Contact</h3>
+            <h3 className="text-white font-bold text-lg mb-4">{t('footer.contact')}</h3>
             <ul className="space-y-2">
               <li>
                 <p className="text-sm">
-                  <strong>Adresse:</strong><br />
+                  <strong>{t('footer.address')}:</strong><br />
                   Tunis, Tunisie
                 </p>
               </li>
               <li>
                 <p className="text-sm">
-                  <strong>Téléphone:</strong><br />
+                  <strong>{t('footer.phone')}:</strong><br />
                   +216 XX XXX XXX
                 </p>
               </li>
               <li>
                 <p className="text-sm">
-                  <strong>Email:</strong><br />
+                  <strong>{t('footer.email')}:</strong><br />
                   contact@jmev-tunisia.tn
                 </p>
               </li>
@@ -133,24 +128,24 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm">
-              © {currentYear} JMEV Tunisia. Tous droits réservés.
+              © {currentYear} JMEV Tunisia. {t('footer.rights')}
             </p>
             <div className="flex space-x-6 text-sm">
-              <Link href="/privacy" className="hover:text-white transition-colors">
-                Politique de confidentialité
+              <Link href={getLocalizedPath('/privacy', locale)} className="hover:text-white transition-colors">
+                {t('footer.privacy')}
               </Link>
-              <Link href="/cookies" className="hover:text-white transition-colors">
-                Politique des cookies
+              <Link href={getLocalizedPath('/cookies', locale)} className="hover:text-white transition-colors">
+                {t('footer.cookies')}
               </Link>
-              <Link href="/terms" className="hover:text-white transition-colors">
-                Conditions d'utilisation
+              <Link href={getLocalizedPath('/terms', locale)} className="hover:text-white transition-colors">
+                {t('footer.terms')}
               </Link>
             </div>
           </div>
           {/* Developer Credit */}
           <div className="border-t border-gray-800 mt-6 pt-6 text-center">
             <p className="text-sm text-gray-400">
-              Développé avec ❤️ par{' '}
+              {t('footer.developedBy')}{' '}
               <a
                 href="https://www.instacodin.com"
                 target="_blank"
