@@ -26,7 +26,7 @@ export default async function OffersPage({ params }: { params: Promise<{ locale:
       type: 'particuliers',
       title: t.offers.individual.title,
       description: t.offers.individual.description,
-      features: Object.values(t.offers.individual.features),
+      features: Object.values(t.offers.individual.features) as string[],
       example: {
         vehicle: 'ELIGHT',
         price: locale === 'fr' ? '45 000 TND' : locale === 'ar' ? '45000 دينار تونسي' : '45,000 TND',
@@ -40,7 +40,7 @@ export default async function OffersPage({ params }: { params: Promise<{ locale:
       type: 'entreprises',
       title: t.offers.business.title,
       description: t.offers.business.description,
-      features: Object.values(t.offers.business.features),
+      features: Object.values(t.offers.business.features) as string[],
       example: {
         vehicle: 'EV3',
         price: locale === 'fr' ? '75 000 TND' : locale === 'ar' ? '75000 دينار تونسي' : '75,000 TND',
